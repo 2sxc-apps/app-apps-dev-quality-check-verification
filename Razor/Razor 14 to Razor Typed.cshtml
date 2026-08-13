@@ -1,0 +1,17 @@
+@inherits Custom.Hybrid.RazorTyped
+
+@* 2sxclint:disable:info-use-of-imgAltFallback *@
+@{
+  // this is the test line which should not happen any more
+  // Metadata.Description
+}
+
+
+@* 2sxclint:disable:no-use-Bootstrap4 *@
+@Kit.Page.Activate("Bootstrap4")
+
+
+@* 2sxclint:disable:no-use-of-ilogservice *@
+@*{
+  var x = GetService<ILogService>();
+}*@
