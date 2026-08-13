@@ -1,0 +1,27 @@
+@inherits Custom.Hybrid.RazorTyped
+
+<div @Kit.Toolbar.Default(MyItem)>
+  <h1>
+    Test app to verify that App Quality Tests
+  </h1>
+  <p>
+    Test app to verify that all the tests work as expected.
+    The way to use it is to create a file with a problem, and verify that it fails.
+  </p>
+
+</div>
+
+
+<h2>File Existence Examples</h2>
+
+<ol>
+  <li>You could rename the <code>app-icon.png</code> to something else, and an issue should trigger.</li>
+  <li>Same for the <code>licenses.txt</code></li>
+  <li>Also for the <code>App_Data/app.xml</code></li>
+</ol>
+
+<h2>App Configuration Examples</h2>
+<ol>
+  <li>Disable AJAX in the features</li>
+  <li>Disable LightSpeed in the features</li>
+</ol>
