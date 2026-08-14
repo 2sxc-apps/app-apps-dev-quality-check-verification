@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="21.08.00" ExportDate="2026-08-13T13:07:25.6743934+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="21.08.00" ExportDate="2026-08-14T07:13:50.0623783+02:00">
   <Header>
     <App Guid="a3763929-a487-4b5f-a392-2fa8efd91ccc" />
     <Language Default="en-us" />
@@ -32,7 +32,7 @@
       <Value Key="DisplayName" Value="Apps - Quality Check Verification" Type="String">
         <Dimension DimensionID="195" ReadOnly="false" />
       </Value>
-      <Value Key="Folder" Value="app-apps-quality-check-verification" Type="String">
+      <Value Key="Folder" Value="app-apps-dev-quality-check-verification" Type="String">
         <Dimension DimensionID="195" ReadOnly="false" />
       </Value>
       <Value Key="Hidden" Value="False" Type="Boolean">
@@ -41,13 +41,13 @@
       <Value Key="OriginalId" Value="" Type="String">
         <Dimension DimensionID="195" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredDnnVersion" Value="09.06.01" Type="String">
+      <Value Key="RequiredDnnVersion" Value="10.00.00" Type="String">
         <Dimension DimensionID="195" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredOqtaneVersion" Value="" Type="String">
+      <Value Key="RequiredOqtaneVersion" Value="10.00.00" Type="String">
         <Dimension DimensionID="195" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredVersion" Value="16.00.00" Type="String">
+      <Value Key="RequiredVersion" Value="22.00.00" Type="String">
         <Dimension DimensionID="195" ReadOnly="false" />
       </Value>
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
@@ -112,9 +112,44 @@
         <Dimension DimensionID="195" ReadOnly="false" />
       </Value>
     </Entity>
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="be34f64b-7d1f-4ad0-b488-dabbbb01a186" AttributeSetName="LightSpeedOutputDecorator" EntityGUID="eec19e5e-5124-498c-bb03-157532bb7ce7" Json="True" KeyNumber="371">
+      <Value Key="Advanced" Value="" Type="String">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="ByUrlParameters" Value="False" Type="Boolean">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="Duration" Value="14400" Type="Number">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="DurationEditors" Value="300" Type="Number">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="DurationSystemAdmin" Value="300" Type="Number">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="DurationUsers" Value="-1" Type="Number">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="IsEnabled" Value="True" Type="Boolean">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="Title" Value="✅ - Users 14400s, Reg 🚫, Editors 300s, SysAdmins 300s" Type="String">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="UrlParameterNames" Value="" Type="String">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="UrlParametersCaseSensitive" Value="False" Type="Boolean">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+      <Value Key="UrlParametersOthersDisableCache" Value="True" Type="Boolean">
+        <Dimension DimensionID="195" ReadOnly="false" />
+      </Value>
+    </Entity>
   </Entities>
   <PortalFiles />
   <PortalFolders>
-    <Folder Id="14767" RelativePath="adam/app-apps-quality-check-verification/" />
+    <Folder Id="14768" RelativePath="adam/app-apps-dev-quality-check-verification/" />
   </PortalFolders>
 </SexyContent>
