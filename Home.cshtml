@@ -1,16 +1,35 @@
 @inherits Custom.Hybrid.RazorTyped
 
-<div @Kit.Toolbar.Default(MyItem)>
-  <h1>
-    Test app to verify that App Quality Tests
-  </h1>
-  <p>
-    Test app to verify that all the tests work as expected.
-    The way to use it is to create a file with a problem, and verify that it fails.
-  </p>
+<h1 @Kit.Toolbar.Default(MyItem)>
+  Test app to verify that App Quality Tests
+</h1>
+<p>
+  In 2sxc Apps-Dev we have a special app which manages the catalog of apps.
 
-</div>
+  An important feature of it is the "Quality Checks" which it can run on all these apps.
 
+  This app is to verify that all the tests work as expected.
+</p>
+<blockquote>
+  The way to use it is to create a file with a problem, and verify that it fails.
+  Then fix the problem, and verify that it passes.
+</blockquote>
+
+<h2>We need this to:</h2>
+
+<ol>
+  <li>Ensure consistent quality of apps in the catalog, since they are usually used as examples for other developers and should therefore be of high quality.</li>
+  <li>Ensure that we do not use old APIs that are being deprecated or phased out.</li>
+  <li>Ensure that, as newer best practices are defined, we actually apply them and phase out outdated practices.</li>
+</ol>
+
+<p>
+  Once apps have been fixed / updated, it can become unclear which checks actually still work,
+  as we would notice tests if they simply don't test anything any more.
+
+  So we need this special app which can simulate all issues,
+  to verify the checks still work.
+</p>
 
 <h2>File Existence Examples</h2>
 
